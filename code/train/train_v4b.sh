@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# v4b 학습셋으로 OpenVLA 미세조정 — 빌드 → npz 대조 → GPU 1 확인 → 학습.  서버(sch@10.115.10.87)에서 실행.
+# v4b 학습셋으로 OpenVLA 미세조정 — 빌드 → npz 대조 → GPU 1 확인 → 학습.  학습 서버에서 실행.
 #   setsid nohup bash ~/rlds_builder_v4b/train_v4b.sh > /dev/null 2>&1 &
 # 기록: ~/openvla_runs/logs/v4b_<날짜시각>.log
 # 서버의 openvla 저장소 코드와 9 월 데이터셋(~/tensorflow_datasets/isaac_libero_spatial)은 건드리지 않는다.
