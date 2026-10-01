@@ -1,0 +1,14 @@
+digraph S {
+  graph [rankdir=TB, fontname="Noto Sans CJK KR", fontsize=12, nodesep=0.2, ranksep=0.35, label="그림 10. 평가 단계 사다리 (StageTelemetry) — 성공 = S9 도달", labelloc=t, labeljust=l];
+  node [shape=box, style="rounded,filled", fontname="Noto Sans CJK KR", fontsize=10, fillcolor="#f4f6f9", color="#8a94a3", width=1.3];
+  S0 [label="S0\n초기 상태·센서\n(정책 실패와 분리)", fillcolor="#eeeeee"];
+  S1 [label="S1\n첫 닫힘이 목표\n그릇 근처"]; S2 [label="S2\n접근\n(pregrasp)"];
+  S3 [label="S3\n정렬\n(닫힐 때 위치)", fillcolor="#f7d9d5"]; S4 [label="S4\n접촉·파지", fillcolor="#fbe3cc"];
+  S5 [label="S5\n안정 파지\n(손가락 폭)"]; S6 [label="S6\n들기"]; S7 [label="S7\n안전 이탈"];
+  S8 [label="S8\n이송\n(접시 위 xy·높이)"];
+  S9 [label="S9  성공\nfootprint · 높이\n· 정지 · 위에서 하강", fillcolor="#d9efe0", penwidth=2];
+  S10 [label="S10 (참고)\n해제 + 2 초 안정"];
+  { rank=same; S0; S1; S2; S3; }  { rank=same; S4; S5; S6; S7; }  { rank=same; S8; S9; S10; }
+  S0 -> S1 -> S2 -> S3; S4 -> S5 -> S6 -> S7; S8 -> S9 -> S10;
+  S0 -> S4 -> S8 [style=invis];  S3 -> S4 [constraint=false];  S7 -> S8 [constraint=false];
+}

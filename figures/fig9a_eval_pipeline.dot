@@ -1,0 +1,19 @@
+digraph G {
+  graph [rankdir=TB, fontname="Noto Sans CJK KR", fontsize=12, nodesep=0.5, ranksep=0.35, label="그림 9a. 평가 파이프라인 (제로샷 · 파인튜닝 평가 공통)", labelloc=t, labeljust=l];
+  node [shape=box, style="rounded,filled", fontname="Noto Sans CJK KR", fontsize=10, fillcolor="#f4f6f9", color="#8a94a3"];
+  edge [fontname="Noto Sans CJK KR", fontsize=9, color="#555555"];
+  scene [label="Isaac 장면\nLIBERO 배치 JSON\n(s00–s49 / 시연별)"];
+  cams [label="카메라\nagentview D405\n손목 D405 (신규)"];
+  cli [label="정책 클라이언트\nOpenVLAClient\nOFTClient (신규: 청크 큐 · proprio 8)"];
+  srv [label="정책 서버\nOpenVLA :8000  (crop 0.35 → 224)\nOFT :8001 (신규: agentview+손목+state)", fillcolor="#e3eefa"];
+  ac [label="액션 규약 · 어댑터\n관문 해제 · 집게 PD 자연 닫힘\nz 오프셋 0"];
+  ik [label="Lula IK (right_gripper)\n실패 시 현재 자세 유지"];
+  phys [label="PhysX\n명령당 S=3 서브스텝 · gain 0.65\n(사람 시연 명령 개루프 재생으로\nMuJoCo 와 이동비 1.02 확인)", fillcolor="#fdf1dd"];
+  st [label="StageTelemetry S0–S10\n성공 = S9", fillcolor="#d9efe0"];
+  cap [label="캡처\nraw_rgb · openvla_rgb\nwrist_rgb (신규) · 관절 (신규)"];
+  wd [label="watchdog.sh (신규)\n15 분 무응답 판 재시도", fillcolor="#eeeeee"];
+  scene -> cams -> cli; cli -> srv [dir=both, label="HTTP"];
+  cli -> ac -> ik -> phys; phys -> cams [constraint=false, style=dashed, label="다음 관측"];
+  phys -> st; phys -> cap; wd -> phys [style=dotted, arrowhead=none];
+  { rank=same; cli; srv; }  { rank=same; phys; wd; }  { rank=same; st; cap; }
+}
