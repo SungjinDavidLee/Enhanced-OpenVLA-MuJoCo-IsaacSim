@@ -1,0 +1,241 @@
+﻿model,cell,task,task_name,n,success,one_pass
+OpZ,mj,0,between plate and ramekin,50,49,46
+OpZ,mj,1,next to ramekin,50,45,44
+OpZ,mj,2,table center,50,42,41
+OpZ,mj,3,on cookie box,50,48,47
+OpZ,mj,4,in cabinet top drawer,50,34,33
+OpZ,mj,5,on ramekin,50,44,43
+OpZ,mj,6,next to cookie box,50,44,44
+OpZ,mj,7,on stove,50,41,40
+OpZ,mj,8,next to plate,50,37,35
+OpZ,mj,9,on wooden cabinet,50,38,34
+OpZ,mjb,0,between plate and ramekin,50,46,43
+OpZ,mjb,1,next to ramekin,50,42,41
+OpZ,mjb,2,table center,50,46,46
+OpZ,mjb,3,on cookie box,50,41,41
+OpZ,mjb,4,in cabinet top drawer,50,39,35
+OpZ,mjb,5,on ramekin,50,48,47
+OpZ,mjb,6,next to cookie box,50,45,42
+OpZ,mjb,7,on stove,50,39,36
+OpZ,mjb,8,next to plate,50,38,36
+OpZ,mjb,9,on wooden cabinet,50,26,24
+OpZ,M1,0,between plate and ramekin,50,5,2
+OpZ,M1,1,next to ramekin,50,1,0
+OpZ,M1,2,table center,50,23,17
+OpZ,M1,3,on cookie box,50,6,2
+OpZ,M1,4,in cabinet top drawer,50,1,0
+OpZ,M1,5,on ramekin,50,0,0
+OpZ,M1,6,next to cookie box,50,14,10
+OpZ,M1,7,on stove,50,3,3
+OpZ,M1,8,next to plate,50,0,0
+OpZ,M1,9,on wooden cabinet,50,1,0
+OpZ,M50,0,between plate and ramekin,50,4,1
+OpZ,M50,1,next to ramekin,50,7,7
+OpZ,M50,2,table center,50,32,21
+OpZ,M50,3,on cookie box,50,5,4
+OpZ,M50,4,in cabinet top drawer,50,1,0
+OpZ,M50,5,on ramekin,50,0,0
+OpZ,M50,6,next to cookie box,50,9,9
+OpZ,M50,7,on stove,50,5,4
+OpZ,M50,8,next to plate,50,0,0
+OpZ,M50,9,on wooden cabinet,50,1,0
+OpZ,B1,0,between plate and ramekin,50,10,6
+OpZ,B1,1,next to ramekin,50,13,11
+OpZ,B1,2,table center,50,28,20
+OpZ,B1,3,on cookie box,50,9,5
+OpZ,B1,4,in cabinet top drawer,50,2,2
+OpZ,B1,5,on ramekin,50,0,0
+OpZ,B1,6,next to cookie box,50,40,34
+OpZ,B1,7,on stove,50,3,3
+OpZ,B1,8,next to plate,50,7,5
+OpZ,B1,9,on wooden cabinet,50,2,1
+OpZ,B50,0,between plate and ramekin,50,11,8
+OpZ,B50,1,next to ramekin,50,6,4
+OpZ,B50,2,table center,50,31,23
+OpZ,B50,3,on cookie box,50,10,3
+OpZ,B50,4,in cabinet top drawer,50,1,1
+OpZ,B50,5,on ramekin,50,0,0
+OpZ,B50,6,next to cookie box,50,25,15
+OpZ,B50,7,on stove,50,4,2
+OpZ,B50,8,next to plate,50,5,4
+OpZ,B50,9,on wooden cabinet,50,7,3
+OpF4,mj,0,between plate and ramekin,50,19,19
+OpF4,mj,1,next to ramekin,50,25,24
+OpF4,mj,2,table center,50,12,12
+OpF4,mj,3,on cookie box,50,9,8
+OpF4,mj,4,in cabinet top drawer,50,5,4
+OpF4,mj,5,on ramekin,50,15,15
+OpF4,mj,6,next to cookie box,50,5,5
+OpF4,mj,7,on stove,50,36,35
+OpF4,mj,8,next to plate,50,11,10
+OpF4,mj,9,on wooden cabinet,50,8,7
+OpF4,mjb,0,between plate and ramekin,50,22,20
+OpF4,mjb,1,next to ramekin,50,29,25
+OpF4,mjb,2,table center,50,13,13
+OpF4,mjb,3,on cookie box,50,10,10
+OpF4,mjb,4,in cabinet top drawer,50,5,5
+OpF4,mjb,5,on ramekin,50,22,21
+OpF4,mjb,6,next to cookie box,50,5,5
+OpF4,mjb,7,on stove,50,37,36
+OpF4,mjb,8,next to plate,50,8,8
+OpF4,mjb,9,on wooden cabinet,50,10,6
+OpF4,M1,0,between plate and ramekin,50,4,3
+OpF4,M1,1,next to ramekin,50,20,19
+OpF4,M1,2,table center,50,5,5
+OpF4,M1,3,on cookie box,50,3,2
+OpF4,M1,4,in cabinet top drawer,50,1,1
+OpF4,M1,5,on ramekin,50,3,2
+OpF4,M1,6,next to cookie box,50,31,31
+OpF4,M1,7,on stove,50,32,31
+OpF4,M1,8,next to plate,50,3,0
+OpF4,M1,9,on wooden cabinet,50,3,3
+OpF4,M50,0,between plate and ramekin,50,3,3
+OpF4,M50,1,next to ramekin,50,21,21
+OpF4,M50,2,table center,50,13,12
+OpF4,M50,3,on cookie box,50,8,8
+OpF4,M50,4,in cabinet top drawer,50,4,3
+OpF4,M50,5,on ramekin,50,11,11
+OpF4,M50,6,next to cookie box,50,24,23
+OpF4,M50,7,on stove,50,20,20
+OpF4,M50,8,next to plate,50,1,1
+OpF4,M50,9,on wooden cabinet,50,10,7
+OpF4,B1,0,between plate and ramekin,50,0,0
+OpF4,B1,1,next to ramekin,50,24,18
+OpF4,B1,2,table center,50,16,16
+OpF4,B1,3,on cookie box,50,32,27
+OpF4,B1,4,in cabinet top drawer,50,0,0
+OpF4,B1,5,on ramekin,50,3,3
+OpF4,B1,6,next to cookie box,50,42,41
+OpF4,B1,7,on stove,50,22,22
+OpF4,B1,8,next to plate,50,12,8
+OpF4,B1,9,on wooden cabinet,50,17,12
+OpF4,B50,0,between plate and ramekin,50,3,2
+OpF4,B50,1,next to ramekin,50,33,26
+OpF4,B50,2,table center,50,13,11
+OpF4,B50,3,on cookie box,50,21,17
+OpF4,B50,4,in cabinet top drawer,50,3,3
+OpF4,B50,5,on ramekin,50,9,8
+OpF4,B50,6,next to cookie box,50,34,31
+OpF4,B50,7,on stove,50,19,19
+OpF4,B50,8,next to plate,50,5,2
+OpF4,B50,9,on wooden cabinet,50,31,30
+OFT,mj,0,between plate and ramekin,50,50,50
+OFT,mj,1,next to ramekin,50,50,50
+OFT,mj,2,table center,50,50,49
+OFT,mj,3,on cookie box,50,49,46
+OFT,mj,4,in cabinet top drawer,50,48,48
+OFT,mj,5,on ramekin,50,47,47
+OFT,mj,6,next to cookie box,50,50,47
+OFT,mj,7,on stove,50,49,46
+OFT,mj,8,next to plate,50,50,50
+OFT,mj,9,on wooden cabinet,50,48,47
+OFT,mjb,0,between plate and ramekin,50,20,12
+OFT,mjb,1,next to ramekin,50,49,40
+OFT,mjb,2,table center,50,50,49
+OFT,mjb,3,on cookie box,50,8,2
+OFT,mjb,4,in cabinet top drawer,50,42,42
+OFT,mjb,5,on ramekin,50,8,4
+OFT,mjb,6,next to cookie box,50,42,36
+OFT,mjb,7,on stove,50,40,37
+OFT,mjb,8,next to plate,50,40,24
+OFT,mjb,9,on wooden cabinet,50,25,20
+OFT,M1,0,between plate and ramekin,50,4,3
+OFT,M1,1,next to ramekin,50,0,0
+OFT,M1,2,table center,50,19,19
+OFT,M1,3,on cookie box,50,48,48
+OFT,M1,4,in cabinet top drawer,50,7,7
+OFT,M1,5,on ramekin,50,0,0
+OFT,M1,6,next to cookie box,50,44,44
+OFT,M1,7,on stove,50,2,2
+OFT,M1,8,next to plate,50,49,39
+OFT,M1,9,on wooden cabinet,50,47,43
+OFT,M50,0,between plate and ramekin,50,19,10
+OFT,M50,1,next to ramekin,50,6,6
+OFT,M50,2,table center,50,42,42
+OFT,M50,3,on cookie box,50,49,49
+OFT,M50,4,in cabinet top drawer,50,22,19
+OFT,M50,5,on ramekin,50,0,0
+OFT,M50,6,next to cookie box,50,22,22
+OFT,M50,7,on stove,50,4,4
+OFT,M50,8,next to plate,50,32,22
+OFT,M50,9,on wooden cabinet,50,36,29
+OFT,B1,0,between plate and ramekin,50,0,0
+OFT,B1,1,next to ramekin,50,0,0
+OFT,B1,2,table center,50,0,0
+OFT,B1,3,on cookie box,50,0,0
+OFT,B1,4,in cabinet top drawer,50,1,0
+OFT,B1,5,on ramekin,50,2,0
+OFT,B1,6,next to cookie box,50,48,44
+OFT,B1,7,on stove,50,0,0
+OFT,B1,8,next to plate,50,0,0
+OFT,B1,9,on wooden cabinet,50,4,1
+OFT,B50,0,between plate and ramekin,50,0,0
+OFT,B50,1,next to ramekin,50,0,0
+OFT,B50,2,table center,50,1,0
+OFT,B50,3,on cookie box,50,0,0
+OFT,B50,4,in cabinet top drawer,50,1,1
+OFT,B50,5,on ramekin,50,0,0
+OFT,B50,6,next to cookie box,50,44,41
+OFT,B50,7,on stove,50,2,1
+OFT,B50,8,next to plate,50,3,2
+OFT,B50,9,on wooden cabinet,50,11,6
+Pi05,mj,0,between plate and ramekin,50,50,41
+Pi05,mj,1,next to ramekin,50,50,49
+Pi05,mj,2,table center,50,50,49
+Pi05,mj,3,on cookie box,50,48,48
+Pi05,mj,4,in cabinet top drawer,50,49,49
+Pi05,mj,5,on ramekin,50,49,48
+Pi05,mj,6,next to cookie box,50,49,48
+Pi05,mj,7,on stove,50,50,41
+Pi05,mj,8,next to plate,50,49,44
+Pi05,mj,9,on wooden cabinet,50,48,44
+Pi05,mjb,0,between plate and ramekin,50,48,41
+Pi05,mjb,1,next to ramekin,50,45,36
+Pi05,mjb,2,table center,50,50,46
+Pi05,mjb,3,on cookie box,50,49,48
+Pi05,mjb,4,in cabinet top drawer,50,47,46
+Pi05,mjb,5,on ramekin,50,46,42
+Pi05,mjb,6,next to cookie box,50,50,48
+Pi05,mjb,7,on stove,50,50,49
+Pi05,mjb,8,next to plate,50,47,39
+Pi05,mjb,9,on wooden cabinet,50,47,40
+Pi05,M1,0,between plate and ramekin,50,42,14
+Pi05,M1,1,next to ramekin,50,32,8
+Pi05,M1,2,table center,50,25,4
+Pi05,M1,3,on cookie box,50,48,41
+Pi05,M1,4,in cabinet top drawer,50,7,7
+Pi05,M1,5,on ramekin,50,34,22
+Pi05,M1,6,next to cookie box,50,46,42
+Pi05,M1,7,on stove,50,0,0
+Pi05,M1,8,next to plate,50,32,3
+Pi05,M1,9,on wooden cabinet,50,39,9
+Pi05,M50,0,between plate and ramekin,50,43,22
+Pi05,M50,1,next to ramekin,50,23,8
+Pi05,M50,2,table center,50,21,3
+Pi05,M50,3,on cookie box,50,45,43
+Pi05,M50,4,in cabinet top drawer,50,18,15
+Pi05,M50,5,on ramekin,50,35,12
+Pi05,M50,6,next to cookie box,50,41,33
+Pi05,M50,7,on stove,50,0,0
+Pi05,M50,8,next to plate,50,36,13
+Pi05,M50,9,on wooden cabinet,50,41,24
+Pi05,B1,0,between plate and ramekin,50,14,0
+Pi05,B1,1,next to ramekin,50,20,11
+Pi05,B1,2,table center,50,42,38
+Pi05,B1,3,on cookie box,50,31,10
+Pi05,B1,4,in cabinet top drawer,50,30,30
+Pi05,B1,5,on ramekin,50,1,0
+Pi05,B1,6,next to cookie box,50,50,47
+Pi05,B1,7,on stove,50,7,4
+Pi05,B1,8,next to plate,50,44,30
+Pi05,B1,9,on wooden cabinet,50,21,12
+Pi05,B50,0,between plate and ramekin,50,22,5
+Pi05,B50,1,next to ramekin,50,34,27
+Pi05,B50,2,table center,50,49,44
+Pi05,B50,3,on cookie box,50,34,11
+Pi05,B50,4,in cabinet top drawer,50,34,32
+Pi05,B50,5,on ramekin,50,0,0
+Pi05,B50,6,next to cookie box,50,41,21
+Pi05,B50,7,on stove,50,8,3
+Pi05,B50,8,next to plate,50,45,29
+Pi05,B50,9,on wooden cabinet,50,16,11
